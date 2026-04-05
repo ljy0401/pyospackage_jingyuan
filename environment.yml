@@ -1,0 +1,7 @@
+name: pyos
+channels:
+  - conda-forge
+dependencies:
+  - python>3.12
+  - copier=9.14.0
+  - pytest=9.0.2 # optional if you want to use the base pyopensci template and follow along their tutorial
