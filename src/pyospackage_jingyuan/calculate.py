@@ -6,7 +6,7 @@ It's generally good practice to have a docstring
 that explains the purpose of the module, at the top.
 """
 
-def add_num(a: int, b: int) -> int:
+def add_num(a: float, b: float) -> float:
     """
     Add two numbers together and return the result.
 
@@ -36,7 +36,7 @@ def add_num(a: int, b: int) -> int:
     return a + b
 
 
-def multiply_num(a: int, b: int) -> int:
+def multiply_num(a: float, b: float) -> float:
     """
     Multiply two numbers together and return the result.
 
